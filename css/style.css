@@ -4,6 +4,7 @@
     --accent-color:#2196F3;
     --white-color:#FFFFFF;
     --white-secondary: rgba(255, 255, 255, 0.6);
+    --button-background-secondary: #F5F4FA;
 }
 
 body {
@@ -40,6 +41,10 @@ color: var(--accent-color);
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
+    .site-nav .link.current {
+        color: var(--accent-color);
+    }
+
 
 /* oсобености*/
 .section .text {
@@ -60,6 +65,11 @@ color: var(--accent-color);
     background-color: var(--accent-color);
     border: none;
 
+}
+
+.button .primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 /* footer*/
